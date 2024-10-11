@@ -16,7 +16,7 @@ function draw() {
   let columns= floor((windowWidth-2*padding)/(squareSize+gutter));
   let rows= floor((windowHeight-2*padding)/(squareSize+gutter));
 
-  // Ricalo del padding in modo che il disegno sia centrato
+  // Ricalcolo del padding in modo che il disegno sia centrato
   let usedSpace = columns*(squareSize + gutter)
   let remainingSpace = windowWidth-usedSpace;
   let paddingLeft = remainingSpace/2;
